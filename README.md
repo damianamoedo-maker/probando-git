@@ -87,16 +87,16 @@ También describe la alternativa HTTPS con Personal Access Token.
 
 ```
   Tu PC                          GitHub
-  ┌──────────────────┐           ┌─────────────────────┐
+  ┌────────────────────┐           ┌─────────────────────┐
   │ git config         │           │ Cuenta, email,      │
   │ user.name / email  │  ◄──────► │ perfil              │
-  ├──────────────────┤           ├─────────────────────┤
-  │ ~/.ssh/clave     │  clave    │ Settings → SSH keys │
-  │ ssh -T git@…     │  .pub     │                     │
-  ├──────────────────┤           ├─────────────────────┤
-  │ .git/ commits    │  push     │ Repositorio remoto  │
-  │ git remote origin│ ◄───────► │ (origin)            │
-  └──────────────────┘           └─────────────────────┘
+  ├────────────────────┤           ├─────────────────────┤
+  │ ~/.ssh/clave       │  clave    │ Settings → SSH keys │
+  │ ssh -T git@…       │  .pub     │                     │
+  ├────────────────────┤           ├─────────────────────┤
+  │ .git/ commits      │  push     │ Repositorio remoto  │
+  │ git remote origin  │ ◄───────► │ (origin)            │
+  └────────────────────┘           └─────────────────────┘
 ````
 La opción 0 se marca completada (✓) cuando hay Git en el PATH y user.name + user.email globales. La autenticación SSH con GitHub se verifica en el ejercicio 9; el push al remoto, en el 6.
 
@@ -152,6 +152,7 @@ ejercicios_git_basicos/
 El código fuente de git-BUH.sh incluye comentarios en cada función y en las partes más delicadas (SSH multi-clave, verificadores, escenarios de conflicto y pareja).
 
 **Licencia y contribuciones**
+
 Script de práctica educativa. Puedes copiar git-BUH.sh (y opcionalmente este README.md) donde quieras enseñar o practicar Git.
 
 Tras terminar, puedes borrar la carpeta de práctica y empezar de nuevo en otra ruta vacía.
