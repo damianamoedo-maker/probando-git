@@ -1,5 +1,6 @@
 Archivo del programa: git-BUH.sh
-[Repositorio de la práctica](https://github.com/damianamoedo-maker/probando-git)
+
+Esto vendría siendo el[repositorio de la práctica](https://github.com/damianamoedo-maker/probando-git)
 
 Esto es un programa interactivo en bash para aprender Git de cero: 
 
