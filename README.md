@@ -35,7 +35,7 @@ En el menú escribe 0 la primera vez, luego sigue del 1 al 10. Pulsa r para ver 
 El progreso se guarda en .git-buh-progreso en tu carpeta de práctica. Si tenías .ejercicios-git-progreso de una versión anterior, se migra al arrancar.
 
 **Menú**
-***Opción***	***Contenido***
+```
 0	Instalar/configurar Git, SSH, identidad local y guía para configurar GitHub
 1	Crear repositorio local (git init)
 2	Cinco commits
@@ -47,7 +47,7 @@ El progreso se guarda en .git-buh-progreso en tu carpeta de práctica. Si tenía
 8	.gitignore
 9	SSH con GitHub (verificación ssh -T)
 10	Flujo profesional (--no-ff, tag v1.0.0)
-
+```
 README: r o readme — muestra la ruta de README.md y opción de leerlo con less.
 Salir: q o salir (no hay número de salida).
 
@@ -80,6 +80,7 @@ B	Perfil y email de commits (coincidir con git config user.email o usar noreply)
 C	Settings → SSH and GPG keys → pegar tu .pub → probar ssh -T git@github.com
 D	Crear repositorio vacío (sin README si ya tienes commits locales)
 E	git remote add origin … y git push -u origin main (lo practicas en el ejercicio 6)
+
 También describe la alternativa HTTPS con Personal Access Token.
 
 **Cómo se relacionan Git y GitHub**
