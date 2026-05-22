@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 linea distinta en main
+=======
+linea cambiada en conflict-demo
+>>>>>>> conflict-demo
