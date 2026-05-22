@@ -1,2 +1,5 @@
 *.Identifier
+*.log
+.env
+node_modules/
 

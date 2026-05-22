@@ -202,7 +202,12 @@ guia_ssh_varios_usuarios() {
   echo
   echo "     Remoto del repo (ejemplo cuenta trabajo):"
   echo "       git@github.com-trabajo:ORGANIZACION/repo.git"
-  echo
+  echo ""
+  echo "     eval "$(ssh-agent -s)" se utiliza para iniciar el agente SSH en segundo plano y configurar las variables de entorno necesarias "
+  echo "     para que los procesos posteriores puedan comunicarse con él"
+  echo ""
+  echo "     ssh-add ~/.ssh/id_ed25519_nombre -> se usa para añadir al agente SSH la clave privada"
+  echo ""
   echo "  Preferencia de este programa (usuario actual: $(whoami)):"
   echo "    Clave:  ${ARCHIVO_CLAVE_SSH_PREF}"
   echo "    Host:   ${ARCHIVO_HOST_SSH_GITHUB}"
